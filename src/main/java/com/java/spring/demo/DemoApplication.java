@@ -12,9 +12,8 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
-	@GetMapping()
+	@GetMapping("/test")
 	public String myApi() {
 		return "This is my API!";
 	}
 }
-
